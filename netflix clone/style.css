@@ -1,0 +1,467 @@
+* {
+  font-family: "Inter", sans-serif;
+}
+.AB{
+  background-color: #222222;
+}
+.container-md {
+  /* border: 2px solid red; */
+  height: 100vh;
+  padding: 0px;
+}
+
+.main {
+  height: 70vh;
+  width: 100%;
+  /* border: 2px solid green; */
+  margin-bottom: 5px;
+  background-image: url(Background.png);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+.collapse {
+  justify-content: end;
+}
+.navbar-nav li {
+  color: yellowgreen;
+}
+.nav-item1 {
+  border: 2px solid white;
+  margin: 6px;
+  padding: 2px;
+  border-radius: 8px;
+  padding: 0px 4px;
+}
+.nav-item a {
+  color: aliceblue;
+  font-size: medium;
+  font-weight: 600;
+}
+.nav-item2 {
+  background-color: #e50914;
+  border-radius: 8px;
+  color: #e50914;
+  margin: 6px;
+  padding: 2px;
+  padding: 0px 4px;
+}
+.main-heading {
+  height: 300px;
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  align-self: center;
+}
+.main-heading h1 {
+  text-align: center;
+  font-weight: 800;
+  color: white;
+}
+.main-heading p {
+  text-align: center;
+  color: white;
+  font-weight: 600;
+}
+.main-search {
+  /* border: 2px solid red; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 0%;
+  margin: 0%;
+}
+.navbar-toggler{
+  background-color: white !important;
+}
+.navbar-toggler-icon{
+  color: #fff !important;
+}
+.main-search-sub {
+  width: 500px;
+  border: 2px solid white;
+  height: 40px;
+}
+.main-btn {
+  background-color: #e50914;
+  color: white;
+  font-weight: 400;
+  border: 2px solid #e50914;
+  width: 200px;
+  height: 40px;
+}
+
+.partition {
+  height: 50vh;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 5px;
+}
+.partition-heading h2 {
+  color: white;
+  font-size: x-large;
+  font-weight: 900;
+}
+.partition-heading p {
+  color: white;
+  font-size: large;
+  font-weight: 400;
+}
+.partition-img img {
+  width: 300px;
+  height: 200px;
+}
+.partition2 {
+  flex-direction: row-reverse;
+}
+.faq {
+  margin-bottom: 3px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  
+}
+.faq h1 {
+  padding: 1em;
+  color: white;
+  font-size: x-large;
+  font-weight: 900;
+}
+.btn-faq {
+  background-color: #434343;
+  height: 50px;
+  width: 40vw;
+  display: flex;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  padding-left: 1em;
+  align-items: center;
+  font-size: large;
+  font-weight: 400;
+}
+.card-body1 {
+  width: 40vw;
+  border-radius: 0%;
+}
+.card {
+  background-color: #434343 !important;
+  color: #fff !important;
+  padding: 0.5em;
+  margin: 0.2em;
+}
+.faq p {
+  color: white;
+}
+.main-search{
+  margin: 1em;
+}
+.fotter{
+  height: 5vh;
+  background-color: black;
+}
+.fotter h3{
+  text-align: center;
+  color: white;
+  font-size: smaller;
+  font-weight: 400;
+  padding: 1em;
+}
+.fotter a{
+  color: white;
+  text-decoration: none;
+  font-size: smaller;
+  font-weight: 400;
+}
+
+/* FOR MOBILE RESOLUTION */
+@media only screen and (max-width: 767px){
+  .navbar-brand img{
+    width: 50px;
+    height: 25px;
+  }
+ .main{
+  background-image: url(https://wallpapers.com/images/high/dark-netflix-8ntr8zatybyvm1c6.webp);
+ }
+  .main-heading h1 {
+    text-align: center;
+    font-weight: 30%;
+    color: rgb(255, 4, 4);
+    font-size: large;
+  }
+  .main-heading{
+    width: 100%;
+    padding: 1em;
+    align-items: center;
+    justify-content: center;
+  }
+  .main-heading p {
+    text-align: center;
+    color: white;
+    font-weight: 100;
+    font-size: x-small;
+    margin: 1px;
+  }
+ 
+  .main-search-sub {
+    border-radius: 5px 0 0 5px;
+    margin: 0%;
+    width: 200%;
+    height: 30px;
+  }
+  .main-btn {
+    border-radius: 0 5px 5px 0;
+    color: white;
+    font-weight: 400;
+    width: 100%;
+    height: 30px;
+    font-size: x-small;
+  }
+  ::placeholder{
+    font-weight: 100;
+    font-size: small;
+    padding-left:10px ;
+  }
+  .partition {
+    height: 32vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  .partition-heading h2 {
+    font-size: small;
+    font-weight: 900;
+  }
+  .partition-heading p {
+    color: white;
+    font-size: small;
+    font-weight: 400;
+  }
+  .partition-img img {
+    width: 150px;
+    height: 100px;
+  }
+  .faq h1{
+    text-align: center;
+    font-size: medium;
+    font-weight: 800;
+  }
+  .btn-faq {
+    height: 20px;
+    width: 300px;
+    font-size: small;
+  }
+  .card-body1 {
+    width: 300px;
+  }
+  .faq p {
+    color: #e50914;
+    font-size: x-small;
+    font-weight: 100;
+    text-align: center;
+  }
+  .main-search2{
+    padding: 1em;
+  }
+
+}
+
+/* FOR IPAD RESOLUTION */
+@media (min-width:768px) and (max-width: 1024px){
+  .navbar-brand img{
+    width: 100px;
+    height: 80px;
+  }
+
+  .main-heading h1 {
+    text-align: center;
+    font-weight: 500;
+    color: rgb(252, 248, 248);
+    font-size:x-large;
+  }
+  .main-heading{
+    width: 100%;
+    padding: 1em;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .main-heading p {
+    text-align: center;
+    color: white;
+    font-weight: 100;
+    font-size: medium;
+    margin: 1px;
+  }
+ 
+  .main-search-sub {
+   
+    margin: 0%;
+    width: 300%;
+    height: 50px;
+  }
+  .main-btn {
+   
+    color: white;
+    font-weight: 400;
+    width: 300%;
+    height: 50px;
+    font-size: x-small;
+  }
+  ::placeholder{
+    font-weight: 100;
+    font-size: small;
+    padding-left:10px ;
+  }
+  .partition {
+    height: 32vh;
+    align-items: center;
+    justify-content: center;
+   display: flex;
+   justify-content: space-around;
+
+    text-align: center;
+  }
+  .partition-heading h2 {
+    font-size: x-large;
+    padding-bottom: 20px;
+    font-weight: 900;
+  }
+  .partition-heading p {
+    color: white;
+    font-size: small;
+    font-weight: 400;
+  }
+  .partition-img img {
+    width: 290px;
+    border-radius: 15px 0 15px 0;
+    height: 280px;
+  }
+  .faq h1{
+    text-align: center;
+    font-size: medium;
+    font-weight: 800;
+  }
+  .btn-faq {
+    height: 20px;
+    width: 300px;
+    font-size: small;
+  }
+  .card-body1 {
+    width: 300px;
+  }
+  .faq p {
+    color: #e50914;
+    font-size: x-small;
+    font-weight: 100;
+    text-align: center;
+  }
+  .main-search2{
+    padding: 1em;
+  }
+}
+
+/* FOR DESKTOP RESOLUTION */
+@media (min-width: 1025px) and (max-width:3000px){
+  .navbar-brand img{
+    width: 120px;
+    height: 100px;
+  }
+  .main {
+    height: 50vh;
+    background-image: url(https://as2.ftcdn.net/v2/jpg/03/71/56/17/1000_F_371561715_LVI4qVJ2hyWMDXdqJNGdktggEzjQuC15.jpg);
+  }
+  .main-heading h1 {
+    text-align: center;
+    font-weight: 600;
+    color: white;
+    font-size: larger;
+  }
+  .main-heading{
+    width: 100%;
+    padding: 1em;
+    align-items: center;
+    justify-content: center;
+  }
+  .main-heading p {
+    text-align: center;
+    color: white;
+    font-weight: 300;
+    font-size: small;
+    margin: 1px;
+  }
+ 
+  .main-search-sub {
+    margin: 0%;
+    width: 250%;
+    height: 40px;
+  }
+  .main-btn {
+    color: white;
+    font-weight: 400;
+    width: 150%;
+    height: 40px;
+    font-size: small;
+  }
+  ::placeholder{
+    font-weight: 400;
+    color: black;
+    padding-left: 20px;
+    font-size: medium;
+  }
+  .partition {
+    height: 32vh;
+    align-items: center;
+    justify-content: center;
+   display: flex;
+   justify-content:space-around;
+    flex-direction: column;
+
+    text-align: center;
+  }
+  .partition-heading h2 {
+    font-size: large;
+    color: #ac050e;
+    font-weight: 900;
+  }
+  .partition-heading p {
+    color: white;
+    font-size: small;
+    font-weight: 400;
+  }
+  .partition-img img {
+    width: 250px;
+    height: 150px;
+  }
+  .faq h1{
+    text-align: center;
+    font-size: x-large;
+    font-weight: 600;
+  }
+  .btn-faq {
+    height: 30px;
+    width: 300px;
+  }
+  /* .card-body1 {
+    width: 300px;
+  } */
+  .faq p {
+    font-size: medium;
+    color: #ac050e;
+    font-weight: 500;
+    text-align: center;
+  }
+  .main-search2{
+    padding: 1em;
+  }
+}
